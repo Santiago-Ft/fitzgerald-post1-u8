@@ -86,4 +86,5 @@ public class HallazgoController {
     public List<CambioEstadoView> historial(@PathVariable String id) {
         return consultarHistorialUseCase.ejecutar(new HallazgoId(UUID.fromString(id)));
     }
+    
 }
