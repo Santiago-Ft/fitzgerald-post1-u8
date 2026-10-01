@@ -8,6 +8,7 @@ import com.example.auditoria.usecase.port.HistorialAuditoriaPort;
 import java.util.List;
 
 public class ConsultarHistorialService implements ConsultarHistorialUseCase {
+
     private final HistorialAuditoriaPort historial;
 
     public ConsultarHistorialService(HistorialAuditoriaPort historial) {

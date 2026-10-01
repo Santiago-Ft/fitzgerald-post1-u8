@@ -5,6 +5,7 @@ import com.example.auditoria.usecase.port.DashboardAuditoriaView;
 import com.example.auditoria.usecase.port.HallazgoRepositoryPort;
 
 public class ObtenerDashboardAuditoriaService implements ObtenerDashboardAuditoriaUseCase {
+
     private final HallazgoRepositoryPort repo;
 
     public ObtenerDashboardAuditoriaService(HallazgoRepositoryPort repo) {

@@ -26,7 +26,7 @@ public class HistorialAuditoriaAdapter implements HistorialAuditoriaPort {
         e.setEstadoNuevo(nuevo);
         e.setMotivo(motivo);
         e.setFecha(LocalDateTime.now());
-        jpa.save(e);
+        jpa.save(e); // Registro append-only: solo inserción
     }
 
     @Override

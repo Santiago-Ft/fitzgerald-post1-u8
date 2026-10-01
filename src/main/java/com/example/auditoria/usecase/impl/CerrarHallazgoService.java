@@ -8,6 +8,7 @@ import com.example.auditoria.usecase.port.HallazgoRepositoryPort;
 import com.example.auditoria.usecase.port.HistorialAuditoriaPort;
 
 public class CerrarHallazgoService implements CerrarHallazgoUseCase {
+
     private final HallazgoRepositoryPort repo;
     private final HistorialAuditoriaPort historial;
 

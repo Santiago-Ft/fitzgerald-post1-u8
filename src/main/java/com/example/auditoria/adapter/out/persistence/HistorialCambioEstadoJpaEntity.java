@@ -26,7 +26,7 @@ public class HistorialCambioEstadoJpaEntity {
 
     public HistorialCambioEstadoJpaEntity() {}
 
-    // Getters y Setters
+    // Getters y Setters (Sin setters de modificación de registros existentes)
     public Long getId() { return id; }
     public String getHallazgoId() { return hallazgoId; }
     public void setHallazgoId(String hallazgoId) { this.hallazgoId = hallazgoId; }
